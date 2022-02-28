@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED49EF7527C9C09D0076F66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49EF7427C9C09D0076F66D /* AppDelegate.swift */; };
+		ED49EF7727C9C09D0076F66D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49EF7627C9C09D0076F66D /* SceneDelegate.swift */; };
+		ED49EF7A27C9C09D0076F66D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF7827C9C09D0076F66D /* LaunchScreen.storyboard */; };
+		ED49EF7D27C9C09D0076F66D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF7B27C9C09D0076F66D /* Main.storyboard */; };
+		ED49EF8627C9C09D0076F66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49EF8527C9C09D0076F66D /* AppDelegate.swift */; };
+		ED49EF8927C9C09D0076F66D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF8727C9C09D0076F66D /* Main.storyboard */; };
+		ED49EF9027C9C09D0076F66D /* tosdr Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED49EF8F27C9C09D0076F66D /* tosdr Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED49EF9A27C9C09D0076F66D /* tosdr Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED49EF9927C9C09D0076F66D /* tosdr Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED49EFA027C9C09D0076F66D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5B27C9C09C0076F66D /* Main.html */; };
+		ED49EFA127C9C09D0076F66D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5B27C9C09C0076F66D /* Main.html */; };
+		ED49EFA227C9C09D0076F66D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5D27C9C09C0076F66D /* Icon.png */; };
+		ED49EFA327C9C09D0076F66D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5D27C9C09C0076F66D /* Icon.png */; };
+		ED49EFA427C9C09D0076F66D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5E27C9C09C0076F66D /* Style.css */; };
+		ED49EFA527C9C09D0076F66D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5E27C9C09C0076F66D /* Style.css */; };
+		ED49EFA627C9C09D0076F66D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5F27C9C09C0076F66D /* Script.js */; };
+		ED49EFA727C9C09D0076F66D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF5F27C9C09C0076F66D /* Script.js */; };
+		ED49EFA827C9C09D0076F66D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49EF6027C9C09C0076F66D /* ViewController.swift */; };
+		ED49EFA927C9C09D0076F66D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49EF6027C9C09C0076F66D /* ViewController.swift */; };
+		ED49EFAA27C9C09D0076F66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6127C9C09D0076F66D /* Assets.xcassets */; };
+		ED49EFAB27C9C09D0076F66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6127C9C09D0076F66D /* Assets.xcassets */; };
+		ED49EFAC27C9C09D0076F66D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49EF6327C9C09D0076F66D /* SafariWebExtensionHandler.swift */; };
+		ED49EFAD27C9C09D0076F66D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49EF6327C9C09D0076F66D /* SafariWebExtensionHandler.swift */; };
+		ED49EFAE27C9C09D0076F66D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6527C9C09D0076F66D /* _locales */; };
+		ED49EFAF27C9C09D0076F66D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6527C9C09D0076F66D /* _locales */; };
+		ED49EFB027C9C09D0076F66D /* images in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6627C9C09D0076F66D /* images */; };
+		ED49EFB127C9C09D0076F66D /* images in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6627C9C09D0076F66D /* images */; };
+		ED49EFB227C9C09D0076F66D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6727C9C09D0076F66D /* manifest.json */; };
+		ED49EFB327C9C09D0076F66D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6727C9C09D0076F66D /* manifest.json */; };
+		ED49EFB427C9C09D0076F66D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6827C9C09D0076F66D /* background.js */; };
+		ED49EFB527C9C09D0076F66D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = ED49EF6827C9C09D0076F66D /* background.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED49EF9127C9C09D0076F66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED49EF5527C9C09C0076F66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED49EF8E27C9C09D0076F66D;
+			remoteInfo = "tosdr Extension (iOS)";
+		};
+		ED49EF9B27C9C09D0076F66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED49EF5527C9C09C0076F66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED49EF9827C9C09D0076F66D;
+			remoteInfo = "tosdr Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED49EFC327C9C09D0076F66D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED49EF9027C9C09D0076F66D /* tosdr Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EFCA27C9C09D0076F66D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED49EF9A27C9C09D0076F66D /* tosdr Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED49EF5C27C9C09C0076F66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		ED49EF5D27C9C09C0076F66D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ED49EF5E27C9C09C0076F66D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		ED49EF5F27C9C09C0076F66D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		ED49EF6027C9C09C0076F66D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED49EF6127C9C09D0076F66D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED49EF6327C9C09D0076F66D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		ED49EF6527C9C09D0076F66D /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		ED49EF6627C9C09D0076F66D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		ED49EF6727C9C09D0076F66D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		ED49EF6827C9C09D0076F66D /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		ED49EF7127C9C09D0076F66D /* tosdr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tosdr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49EF7427C9C09D0076F66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED49EF7627C9C09D0076F66D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED49EF7927C9C09D0076F66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED49EF7C27C9C09D0076F66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED49EF7E27C9C09D0076F66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED49EF8327C9C09D0076F66D /* tosdr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tosdr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49EF8527C9C09D0076F66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED49EF8827C9C09D0076F66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED49EF8A27C9C09D0076F66D /* tosdr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tosdr.entitlements; sourceTree = "<group>"; };
+		ED49EF8F27C9C09D0076F66D /* tosdr Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tosdr Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49EF9427C9C09D0076F66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED49EF9927C9C09D0076F66D /* tosdr Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tosdr Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49EF9E27C9C09D0076F66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED49EF9F27C9C09D0076F66D /* tosdr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tosdr.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED49EF6E27C9C09D0076F66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF8027C9C09D0076F66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF8C27C9C09D0076F66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF9627C9C09D0076F66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED49EF5427C9C09C0076F66D = {
+			isa = PBXGroup;
+			children = (
+				ED49EF5927C9C09C0076F66D /* Shared (App) */,
+				ED49EF6227C9C09D0076F66D /* Shared (Extension) */,
+				ED49EF7327C9C09D0076F66D /* iOS (App) */,
+				ED49EF8427C9C09D0076F66D /* macOS (App) */,
+				ED49EF9327C9C09D0076F66D /* iOS (Extension) */,
+				ED49EF9D27C9C09D0076F66D /* macOS (Extension) */,
+				ED49EF7227C9C09D0076F66D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED49EF5927C9C09C0076F66D /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF6027C9C09C0076F66D /* ViewController.swift */,
+				ED49EF6127C9C09D0076F66D /* Assets.xcassets */,
+				ED49EF5A27C9C09C0076F66D /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		ED49EF5A27C9C09C0076F66D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF5B27C9C09C0076F66D /* Main.html */,
+				ED49EF5D27C9C09C0076F66D /* Icon.png */,
+				ED49EF5E27C9C09C0076F66D /* Style.css */,
+				ED49EF5F27C9C09C0076F66D /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED49EF6227C9C09D0076F66D /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF6327C9C09D0076F66D /* SafariWebExtensionHandler.swift */,
+				ED49EF6427C9C09D0076F66D /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		ED49EF6427C9C09D0076F66D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF6527C9C09D0076F66D /* _locales */,
+				ED49EF6627C9C09D0076F66D /* images */,
+				ED49EF6727C9C09D0076F66D /* manifest.json */,
+				ED49EF6827C9C09D0076F66D /* background.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED49EF7227C9C09D0076F66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF7127C9C09D0076F66D /* tosdr.app */,
+				ED49EF8327C9C09D0076F66D /* tosdr.app */,
+				ED49EF8F27C9C09D0076F66D /* tosdr Extension.appex */,
+				ED49EF9927C9C09D0076F66D /* tosdr Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED49EF7327C9C09D0076F66D /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF7427C9C09D0076F66D /* AppDelegate.swift */,
+				ED49EF7627C9C09D0076F66D /* SceneDelegate.swift */,
+				ED49EF7827C9C09D0076F66D /* LaunchScreen.storyboard */,
+				ED49EF7B27C9C09D0076F66D /* Main.storyboard */,
+				ED49EF7E27C9C09D0076F66D /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		ED49EF8427C9C09D0076F66D /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF8527C9C09D0076F66D /* AppDelegate.swift */,
+				ED49EF8727C9C09D0076F66D /* Main.storyboard */,
+				ED49EF8A27C9C09D0076F66D /* tosdr.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		ED49EF9327C9C09D0076F66D /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF9427C9C09D0076F66D /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ED49EF9D27C9C09D0076F66D /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED49EF9E27C9C09D0076F66D /* Info.plist */,
+				ED49EF9F27C9C09D0076F66D /* tosdr.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED49EF7027C9C09D0076F66D /* tosdr (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49EFC427C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr (iOS)" */;
+			buildPhases = (
+				ED49EF6D27C9C09D0076F66D /* Sources */,
+				ED49EF6E27C9C09D0076F66D /* Frameworks */,
+				ED49EF6F27C9C09D0076F66D /* Resources */,
+				ED49EFC327C9C09D0076F66D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED49EF9227C9C09D0076F66D /* PBXTargetDependency */,
+			);
+			name = "tosdr (iOS)";
+			productName = "tosdr (iOS)";
+			productReference = ED49EF7127C9C09D0076F66D /* tosdr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED49EF8227C9C09D0076F66D /* tosdr (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49EFCB27C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr (macOS)" */;
+			buildPhases = (
+				ED49EF7F27C9C09D0076F66D /* Sources */,
+				ED49EF8027C9C09D0076F66D /* Frameworks */,
+				ED49EF8127C9C09D0076F66D /* Resources */,
+				ED49EFCA27C9C09D0076F66D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED49EF9C27C9C09D0076F66D /* PBXTargetDependency */,
+			);
+			name = "tosdr (macOS)";
+			productName = "tosdr (macOS)";
+			productReference = ED49EF8327C9C09D0076F66D /* tosdr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED49EF8E27C9C09D0076F66D /* tosdr Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49EFC027C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr Extension (iOS)" */;
+			buildPhases = (
+				ED49EF8B27C9C09D0076F66D /* Sources */,
+				ED49EF8C27C9C09D0076F66D /* Frameworks */,
+				ED49EF8D27C9C09D0076F66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tosdr Extension (iOS)";
+			productName = "tosdr Extension (iOS)";
+			productReference = ED49EF8F27C9C09D0076F66D /* tosdr Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		ED49EF9827C9C09D0076F66D /* tosdr Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49EFC727C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr Extension (macOS)" */;
+			buildPhases = (
+				ED49EF9527C9C09D0076F66D /* Sources */,
+				ED49EF9627C9C09D0076F66D /* Frameworks */,
+				ED49EF9727C9C09D0076F66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tosdr Extension (macOS)";
+			productName = "tosdr Extension (macOS)";
+			productReference = ED49EF9927C9C09D0076F66D /* tosdr Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED49EF5527C9C09C0076F66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ED49EF7027C9C09D0076F66D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ED49EF8227C9C09D0076F66D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ED49EF8E27C9C09D0076F66D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ED49EF9827C9C09D0076F66D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ED49EF5827C9C09C0076F66D /* Build configuration list for PBXProject "tosdr" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED49EF5427C9C09C0076F66D;
+			productRefGroup = ED49EF7227C9C09D0076F66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED49EF7027C9C09D0076F66D /* tosdr (iOS) */,
+				ED49EF8227C9C09D0076F66D /* tosdr (macOS) */,
+				ED49EF8E27C9C09D0076F66D /* tosdr Extension (iOS) */,
+				ED49EF9827C9C09D0076F66D /* tosdr Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED49EF6F27C9C09D0076F66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFA227C9C09D0076F66D /* Icon.png in Resources */,
+				ED49EF7A27C9C09D0076F66D /* LaunchScreen.storyboard in Resources */,
+				ED49EFA027C9C09D0076F66D /* Main.html in Resources */,
+				ED49EFA627C9C09D0076F66D /* Script.js in Resources */,
+				ED49EFAA27C9C09D0076F66D /* Assets.xcassets in Resources */,
+				ED49EF7D27C9C09D0076F66D /* Main.storyboard in Resources */,
+				ED49EFA427C9C09D0076F66D /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF8127C9C09D0076F66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFA327C9C09D0076F66D /* Icon.png in Resources */,
+				ED49EFA527C9C09D0076F66D /* Style.css in Resources */,
+				ED49EF8927C9C09D0076F66D /* Main.storyboard in Resources */,
+				ED49EFA727C9C09D0076F66D /* Script.js in Resources */,
+				ED49EFAB27C9C09D0076F66D /* Assets.xcassets in Resources */,
+				ED49EFA127C9C09D0076F66D /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF8D27C9C09D0076F66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFB427C9C09D0076F66D /* background.js in Resources */,
+				ED49EFB027C9C09D0076F66D /* images in Resources */,
+				ED49EFB227C9C09D0076F66D /* manifest.json in Resources */,
+				ED49EFAE27C9C09D0076F66D /* _locales in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF9727C9C09D0076F66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFB527C9C09D0076F66D /* background.js in Resources */,
+				ED49EFB127C9C09D0076F66D /* images in Resources */,
+				ED49EFB327C9C09D0076F66D /* manifest.json in Resources */,
+				ED49EFAF27C9C09D0076F66D /* _locales in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED49EF6D27C9C09D0076F66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFA827C9C09D0076F66D /* ViewController.swift in Sources */,
+				ED49EF7527C9C09D0076F66D /* AppDelegate.swift in Sources */,
+				ED49EF7727C9C09D0076F66D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF7F27C9C09D0076F66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFA927C9C09D0076F66D /* ViewController.swift in Sources */,
+				ED49EF8627C9C09D0076F66D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF8B27C9C09D0076F66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFAC27C9C09D0076F66D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49EF9527C9C09D0076F66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49EFAD27C9C09D0076F66D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED49EF9227C9C09D0076F66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED49EF8E27C9C09D0076F66D /* tosdr Extension (iOS) */;
+			targetProxy = ED49EF9127C9C09D0076F66D /* PBXContainerItemProxy */;
+		};
+		ED49EF9C27C9C09D0076F66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED49EF9827C9C09D0076F66D /* tosdr Extension (macOS) */;
+			targetProxy = ED49EF9B27C9C09D0076F66D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED49EF5B27C9C09C0076F66D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED49EF5C27C9C09C0076F66D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		ED49EF7827C9C09D0076F66D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED49EF7927C9C09D0076F66D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED49EF7B27C9C09D0076F66D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED49EF7C27C9C09D0076F66D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED49EF8727C9C09D0076F66D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED49EF8827C9C09D0076F66D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED49EFBE27C9C09D0076F66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED49EFBF27C9C09D0076F66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ED49EFC127C9C09D0076F66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tosdr Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr.Extension;
+				PRODUCT_NAME = "tosdr Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED49EFC227C9C09D0076F66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tosdr Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr.Extension;
+				PRODUCT_NAME = "tosdr Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED49EFC527C9C09D0076F66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = tosdr;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr;
+				PRODUCT_NAME = tosdr;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED49EFC627C9C09D0076F66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = tosdr;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr;
+				PRODUCT_NAME = tosdr;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED49EFC827C9C09D0076F66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/tosdr.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tosdr Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr.Extension;
+				PRODUCT_NAME = "tosdr Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED49EFC927C9C09D0076F66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/tosdr.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tosdr Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr.Extension;
+				PRODUCT_NAME = "tosdr Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED49EFCC27C9C09D0076F66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/tosdr.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tosdr;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr;
+				PRODUCT_NAME = tosdr;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED49EFCD27C9C09D0076F66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/tosdr.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tosdr;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchwasa.tosdr;
+				PRODUCT_NAME = tosdr;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED49EF5827C9C09C0076F66D /* Build configuration list for PBXProject "tosdr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49EFBE27C9C09D0076F66D /* Debug */,
+				ED49EFBF27C9C09D0076F66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49EFC027C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49EFC127C9C09D0076F66D /* Debug */,
+				ED49EFC227C9C09D0076F66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49EFC427C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49EFC527C9C09D0076F66D /* Debug */,
+				ED49EFC627C9C09D0076F66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49EFC727C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49EFC827C9C09D0076F66D /* Debug */,
+				ED49EFC927C9C09D0076F66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49EFCB27C9C09D0076F66D /* Build configuration list for PBXNativeTarget "tosdr (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49EFCC27C9C09D0076F66D /* Debug */,
+				ED49EFCD27C9C09D0076F66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED49EF5527C9C09C0076F66D /* Project object */;
+}
