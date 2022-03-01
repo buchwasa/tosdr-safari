@@ -28,7 +28,7 @@ function getAllServices() {
 }
 
 browser.tabs.onUpdated.addListener(function(id, info, tab) {
-    if (info.status === "complete") {
+    if (info.status === "complete" && tab.url !== "") {
         getAllServices().then(function(services) {
             let service = services["tosdr/review/" + getDomainFromURL(tab.url)];
             console.log(service);
